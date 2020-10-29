@@ -144,6 +144,12 @@
     border: 2px solid black;
     margin: 0;
     flex-direction: row;
+    box-shadow: 0px 0px 35px 0px #0000002c;
+    transition: .3s ease box-shadow;
+}
+
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0px #0000002c;
 }
 #contact .contact-item .icon {
     height: 100px;
