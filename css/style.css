@@ -121,6 +121,80 @@
 }
 
 /*about section start*/
+
+.about{
+    /*position: relative;*/
+    min-width: 986px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+.about-contener{
+    /*position: relative;*/
+    /*background-color: salmon;*/
+    /*border: 3px solid red;*/
+    height: 300px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-pic{
+    margin-left: auto;
+    float: left;
+    /*background-color:tan;*/
+    /*padding: 10px;*/
+    /*border: 3px solid green;*/
+}
+
+.about-content{
+    float: right;
+    /*position: relative;*/
+    margin-left: 20px;
+    margin-right: auto;
+    width: 46%;
+    padding: 10px;
+    /*border: 3px solid green;*/
+
+}
+
+.about-content h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*about section end*/
+
+/*service tab start*/
+
+#service{
+    clear: both;
+    /*position: relative;*/
+    margin-top: 20px;
+}
+
+.service-content{
+    /*position: relative;*/
+    display: flex;
+    /*background-color: salmon;*/
+    border: 3px solid red;
+    /*height: 300px;*/
+    top: 0;
+}
+
+.service-item{
+    /*position: relative;*/
+    float: left;
+    margin: 5px;
+    width: 300px;
+    border: 3px solid black;
+}
+
+/*service tab end*/
+
+
+/*contact section start*/
 #contact .contact {
     /*flex-direction: column;*/
     /*padding: 100px 0;*/
@@ -147,7 +221,6 @@
     box-shadow: 0px 0px 35px 0px #0000002c;
     transition: .3s ease box-shadow;
 }
-
 #contact .contact-item:hover{
     box-shadow: 0px 0px 5px 0px #0000002c;
 }
@@ -166,7 +239,7 @@
 #footer .social-item img{
 
 }
-/*about section end*/
+/*contact section end*/
 
 
 /*footer styling start*/
