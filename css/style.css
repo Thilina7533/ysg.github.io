@@ -123,37 +123,44 @@
 /*about section start*/
 
 .about{
+    clear: both;
     /*position: relative;*/
-    min-width: 986px;
-    margin: 15px;
-    margin-bottom: 20px;
+    /*min-width: 400px;*/
+    /*margin: 15px;*/
+    /*margin-bottom: 50px;*/
+    /*align-content: center;*/
 }
 
 .about-contener{
+
+    width: 100%;
     /*position: relative;*/
     /*background-color: salmon;*/
     /*border: 3px solid red;*/
-    height: 300px;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /*height: 300px;*/
+    /*top: 0;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: space-evenly;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*left: 66px;*/
 }
 
 .about-pic{
     margin-left: auto;
     float: left;
     /*background-color:tan;*/
-    /*padding: 10px;*/
+    padding: 15px;
     /*border: 3px solid green;*/
 }
 
 .about-content{
-    float: right;
+    float: left;
     /*position: relative;*/
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: auto;
-    width: 46%;
+    width: 600px;
     padding: 10px;
     /*border: 3px solid green;*/
 
@@ -176,11 +183,11 @@
 
 .service-content{
     /*position: relative;*/
-    display: flex;
+    /*display: flex;*/
     /*background-color: salmon;*/
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     /*height: 300px;*/
-    top: 0;
+    /*top: 0;*/
 }
 
 .service-item{
@@ -195,6 +202,9 @@
 
 
 /*contact section start*/
+#contact{
+    clear: both;
+}
 #contact .contact {
     /*flex-direction: column;*/
     /*padding: 100px 0;*/
@@ -422,6 +432,15 @@
     .home .home-content .text-3 {
         font-size: 35px;
     }
+    .about-content{
+        float: left;
+        /*position: relative;*/
+        margin-left: 10px;
+        margin-right: auto;
+        width: 100%;
+        padding: 10px;
+        /*border: 3px solid green;*/
 
+    }
 }
 
